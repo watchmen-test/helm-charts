@@ -14,6 +14,7 @@ Master:
   ImageTag: "lts"
   ImagePullPolicy: "Always"
 # ImagePullSecret: jenkins
+  hostAliases: {}
   Component: "jenkins-master"
   UseSecurity: true
   HostNetworking: false
